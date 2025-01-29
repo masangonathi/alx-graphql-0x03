@@ -11,6 +11,7 @@ import React from "react";
       this.state = { hasError: false };
     }
   
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     static getDerivedStateFromError(error: Error): State {
       return { hasError: true };
     }
