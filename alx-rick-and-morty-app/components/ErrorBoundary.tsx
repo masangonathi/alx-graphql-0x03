@@ -1,5 +1,8 @@
 import { ErrorBoundaryProps } from "@/interfaces";
 import { State  } from "@/interfaces";
+import React from "react";  
+  
+
   
   
   class ErrorBoundary extends React.Component<ErrorBoundaryProps , State> {
